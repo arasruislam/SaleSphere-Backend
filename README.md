@@ -58,10 +58,10 @@
 ### Prerequisites
 - Python 3.x
 - Node.js and npm
-- PostgreSQL (or preferred database)
+- SqLite (or preferred database)
 - Git
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/SaleSphere.git
+git clone git@github.com:arasruislam/SaleSphere-Backend.git
 cd SaleSphere
