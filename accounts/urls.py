@@ -5,8 +5,10 @@ from . import views
 
 router = DefaultRouter()
 router.register(r"list", views.AdminApiView)
+router.register(r"staff", views.StaffApiView, basename="staff")
 
 
 urlpatterns = [
     path("", include(router.urls)),
+
 ]
